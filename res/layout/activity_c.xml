@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lifecycle.ActivityC">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity C"
+        android:paddingLeft="120dp"
+        android:paddingTop="100dp"
+        android:textSize="40dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="150dp"
+        android:paddingTop="250dp">
+
+
+
+
+        <Button
+            android:id="@+id/buttonA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicked"
+            android:text="Start A"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="202dp" />
+
+        <Button
+            android:id="@+id/buttonB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicked"
+            android:text="Start B"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="279dp" />
+
+        <Button
+            android:id="@+id/buttonC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="clicked"
+            android:text="Start C"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="367dp" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
